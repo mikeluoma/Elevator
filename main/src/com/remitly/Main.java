@@ -16,10 +16,13 @@ public class Main {
             System.exit(0);
         }
 
-        ElevatorController controller = new ElevatorController(lowestFloor, highestFloor);
+        // Replace this with your implementation
+        ElevatorController controller = new NoOpElevatorController();
+
+
         Set<ElevatorTrafficGenerator> generatorSet = new HashSet<>();
         for (int i = 0; i < numGenerators; i++) {
-            ElevatorTrafficGenerator generator = new ElevatorTrafficGenerator(controller);
+            ElevatorTrafficGenerator generator = new ElevatorTrafficGenerator(controller, lowestFloor, highestFloor);
             generator.start();
             generatorSet.add(generator);
         }
