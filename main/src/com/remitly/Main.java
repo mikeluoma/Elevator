@@ -35,8 +35,7 @@ public class Main {
     public static void main(String[] args) {
         int lowestFloor = getIntegerInput("Enter Lowest Floor");
         int highestFloor = getIntegerInput("Enter Highest Floor");
-        int numGenerators = getIntegerInput("How many request generators?");
-        if (lowestFloor >= highestFloor || numGenerators <= 0) {
+        if (lowestFloor >= highestFloor) {
             System.out.println("Invalid elevator scenario.  Bye!");
             System.exit(0);
         }
@@ -44,21 +43,16 @@ public class Main {
         // Replace this with your implementation
         ElevatorController controller = new NoOpElevatorController();
 
-
-        Set<ElevatorTrafficGenerator> generatorSet = new HashSet<>();
-        for (int i = 0; i < numGenerators; i++) {
-            ElevatorTrafficGenerator generator = new ElevatorTrafficGenerator(controller, lowestFloor, highestFloor);
-            generator.start();
-            generatorSet.add(generator);
-        }
-
         ElevatorRunner runner = new ElevatorRunner(controller);
         runner.start();
+
+        ElevatorTrafficGenerator generator = new ElevatorTrafficGenerator(controller, lowestFloor, highestFloor);
+        generator.start();
 
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
             System.out.println("SHUT IT DOWN!");
             runner.interrupt();
-            generatorSet.forEach(Thread::interrupt);
+            generator.interrupt();
         }));
     }
 
