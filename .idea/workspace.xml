@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80de2e9f-b14e-47ca-bb9e-a4ffd0e9f51a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/test/com.remitly/NoOpElevatorControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Elevator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Elevator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/com/remitly/ElevatorTrafficGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/remitly/ElevatorTrafficGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-4.0.jar" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +113,7 @@
       <workItem from="1565268784714" duration="862000" />
       <workItem from="1567589822490" duration="2850000" />
       <workItem from="1570086210779" duration="2556000" />
-      <workItem from="1572356339264" duration="491000" />
+      <workItem from="1572356339264" duration="550000" />
     </task>
     <task id="LOCAL-00001" summary="Add some more instructinos">
       <created>1570086529049</created>
