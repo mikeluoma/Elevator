@@ -19,7 +19,7 @@ public class ElevatorTrafficGenerator extends Thread {
     public void run() {
         try {
             while (true) {
-                Thread.sleep(ThreadLocalRandom.current().nextInt(2, 10) * 1000);
+                Thread.sleep(ThreadLocalRandom.current().nextInt(2, 8) * 1000);
                 int floorIndex = ThreadLocalRandom.current().nextInt(minFloor, maxFloor + 1);
                 System.out.println("Requesting Floor " + floorIndex);
                 controller.requestFloor(floorIndex);

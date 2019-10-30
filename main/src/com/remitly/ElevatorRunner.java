@@ -15,6 +15,7 @@ public class ElevatorRunner extends Thread {
                 System.out.println("Performing action " + action);
                 if (action != ElevatorAction.NO_OP) {
                     // Execute the action on actual hardware.
+                    // No work for you to do here.
                 }
 
                 Thread.sleep(1000);
