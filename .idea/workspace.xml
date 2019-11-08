@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80de2e9f-b14e-47ca-bb9e-a4ffd0e9f51a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/com/remitly/ElevatorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/remitly/ElevatorRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/com/remitly/ElevatorTrafficGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/remitly/ElevatorTrafficGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/com/remitly/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/remitly/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/test/com.remitly/NoOpElevatorControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/test/com.remitly/ElevatorControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoOpElevatorControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElevatorControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Elevator" />
       <extension name="coverage">
         <pattern>
@@ -82,7 +80,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.remitly" />
-      <option name="MAIN_CLASS_NAME" value="com.remitly.NoOpElevatorControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.remitly.ElevatorControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,7 +117,9 @@
       <workItem from="1572356339264" duration="550000" />
       <workItem from="1572356961220" duration="54000" />
       <workItem from="1572357350775" duration="2228000" />
-      <workItem from="1572446354289" duration="126000" />
+      <workItem from="1572446354289" duration="2937000" />
+      <workItem from="1573028826196" duration="339000" />
+      <workItem from="1573198392064" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary="Add some more instructinos">
       <created>1570086529049</created>
