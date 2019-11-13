@@ -41,7 +41,7 @@ public class Main {
             System.exit(0);
         }
 
-        // Replace this with your implementation
+        // Replace this with your ElevatorController implementation
         ElevatorController controller = new NoOpElevatorController();
 
         ElevatorRunner runner = new ElevatorRunner(controller);

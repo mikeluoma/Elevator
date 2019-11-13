@@ -1,5 +1,9 @@
 package com.remitly;
 
+/**
+ * This is the pretend hardware for the Elevator.
+ * You can ignore the details of this class.
+ */
 public class ElevatorRunner extends Thread {
 
     private ElevatorController controller;

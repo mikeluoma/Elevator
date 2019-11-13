@@ -2,6 +2,10 @@ package com.remitly;
 
 import java.util.concurrent.ThreadLocalRandom;
 
+/**
+ * This class simulates some random requests for floors for the elevator.
+ * You can ignore the details this class.
+ */
 public class ElevatorTrafficGenerator extends Thread {
     private ElevatorController controller;
     private int minFloor;
