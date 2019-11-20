@@ -21,11 +21,9 @@ public class Main {
      *     This is unlike a normal elevator. Users request the elevator by pressing a single giant button -- there's no up or down option.
      *     Once on the elevator, users press a button corresponding to the floor they want to go to.
      *
-     *     Assume that open/close is atomic (so people who need to get off will get off and people who need to get on will get on in the same action)
+     *     Assume that open/close is atomic (so people who need to get off will get off and people who need to get on will get on in the same action
      *
-     *     You can use any data structure to hold the possible actions (enum, dictionary, whatever).
-     *
-     *     Assume some process is calling do() and executing the action. You don't have to worry about how or when.
+     *     Assume some process is calling getNextAction() and executing the action. You don't have to worry about how or when.
      *
      *     Assume that moving floors and opening / closing is instant and never fails. You don't have to worry about failing an action.
      */

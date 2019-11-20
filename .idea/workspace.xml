@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80de2e9f-b14e-47ca-bb9e-a4ffd0e9f51a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/com/remitly/ElevatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/remitly/ElevatorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/src/com/remitly/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/remitly/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/com/remitly/NoOpElevatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/remitly/ElevatorControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/test/com.remitly/ElevatorControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/test/com.remitly/ElevatorControllerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
