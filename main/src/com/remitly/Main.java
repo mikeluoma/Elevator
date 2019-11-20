@@ -1,9 +1,7 @@
 package com.remitly;
 
-import java.util.HashSet;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.Set;
 
 public class Main {
     /**
@@ -16,7 +14,7 @@ public class Main {
      *     OPEN_CLOSE
      *     NO_OP
      *
-     * The interface you should implement is in ElevatorController.java
+     * Please implement your solution in ElevatorControllerImpl.java
 
      * Additional Guidance:
      *
@@ -41,8 +39,7 @@ public class Main {
             System.exit(0);
         }
 
-        // Replace this with your ElevatorController implementation
-        ElevatorController controller = new NoOpElevatorController();
+        ElevatorController controller = new ElevatorControllerImpl();
 
         ElevatorRunner runner = new ElevatorRunner(controller);
         runner.start();

@@ -4,12 +4,8 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class ElevatorControllerTest {
-
-    /**
-     * If you want to test your implementation, swap out your implementation here
-     */
     private ElevatorController getController() {
-        return new NoOpElevatorController();
+        return new ElevatorControllerImpl();
     }
 
     @Test
