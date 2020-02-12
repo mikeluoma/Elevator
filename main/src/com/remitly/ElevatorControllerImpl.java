@@ -27,7 +27,7 @@ public class ElevatorControllerImpl implements ElevatorController {
     /**
      * Feel free to change the contract of the constructor.
      */
-    public ElevatorControllerImpl() {
+    public ElevatorControllerImpl(int initialFloor) {
     }
 
     public int getCurrentFloor() {

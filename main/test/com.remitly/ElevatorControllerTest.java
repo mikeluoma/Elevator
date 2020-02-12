@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class ElevatorControllerTest {
     private ElevatorController getController() {
-        return new ElevatorControllerImpl();
+        return new ElevatorControllerImpl(0);
     }
 
     @Test
